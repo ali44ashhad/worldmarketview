@@ -5,6 +5,7 @@ import {
   FiUsers,
   FiAward,
   FiPieChart,
+  FiHelpCircle,
   FiDollarSign,
 } from "react-icons/fi";
 
@@ -65,7 +66,7 @@ const About = () => {
                   <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                     <FiUsers className="text-green-600 text-2xl" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">----</h3>
+                  <h3 className="text-xl font-bold text-gray-800 mb-2">10k+</h3>
                   <p className="text-gray-600 text-sm">Investors</p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
@@ -189,54 +190,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Awards & Recognition */}
-      {/* <section className="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
-        <div className="container max-w-[1200px] mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              Awards & <span className="text-blue-600">Recognition</span>
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Our commitment to excellence has been recognized by industry
-              leaders
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="bg-white p-6 rounded-xl border border-gray-200 text-center">
-              <div className="bg-blue-50 p-4 rounded-lg mb-4">
-                <FiAward className="text-blue-600 text-3xl mx-auto" />
-              </div>
-              <h3 className="font-semibold mb-1">Best Investment Platform</h3>
-              <p className="text-gray-600 text-sm">Finance Today, 2024</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl border border-gray-200 text-center">
-              <div className="bg-green-50 p-4 rounded-lg mb-4">
-                <FiAward className="text-green-600 text-3xl mx-auto" />
-              </div>
-              <h3 className="font-semibold mb-1">Innovation in Fintech</h3>
-              <p className="text-gray-600 text-sm">
-                India Fintech Awards, 2024
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-xl border border-gray-200 text-center">
-              <div className="bg-purple-50 p-4 rounded-lg mb-4">
-                <FiAward className="text-purple-600 text-3xl mx-auto" />
-              </div>
-              <h3 className="font-semibold mb-1">Customer Excellence</h3>
-              <p className="text-gray-600 text-sm">MoneyView Ratings, 2024</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl border border-gray-200 text-center">
-              <div className="bg-amber-50 p-4 rounded-lg mb-4">
-                <FiAward className="text-amber-600 text-3xl mx-auto" />
-              </div>
-              <h3 className="font-semibold mb-1">Top Startup</h3>
-              <p className="text-gray-600 text-sm">Economic Times, 2024</p>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
         <div className="container max-w-[1200px] mx-auto px-4 text-center">
@@ -249,10 +202,22 @@ const About = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button className="bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition flex items-center mx-auto shadow-lg">
-              Start Investing Now <FiTrendingUp className="ml-2" />
+              <a
+                className="flex items-center justify-center"
+                href="https://fundzz.my-portfolio.co.in/app/#/login"
+                target="_blank"
+              >
+                Start Investing Now <FiTrendingUp className="ml-2" />
+              </a>
             </button>
             <button className="bg-transparent border-2 border-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-800 transition flex items-center mx-auto">
-              Contact Our Team <FiUsers className="ml-2" />
+              <a
+                className="flex items-center justify-center"
+                href="https://fundzz.com"
+                target="_blank"
+              >
+                Learn More <FiHelpCircle className="ml-2" />
+              </a>
             </button>
           </div>
         </div>

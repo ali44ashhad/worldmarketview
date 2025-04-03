@@ -103,10 +103,23 @@ const Home = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <button className="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition flex items-center justify-center shadow-lg transform hover:-translate-y-1">
-                  Start Investing Now <FiArrowRight className="ml-2" />
+                  <a
+                    className="flex items-center justify-center"
+                    href="https://fundzz.my-portfolio.co.in/app/#/login"
+                    target="_blank"
+                  >
+                    Start Investing Now <FiArrowRight className="ml-2" />
+                  </a>
                 </button>
+
                 <button className="bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition flex items-center justify-center">
-                  Learn More <FiChevronRight className="ml-2" />
+                  <a
+                    className="flex justify-center items-center"
+                    href="https://fundzz.com/"
+                    target="_blank"
+                  >
+                    Learn More <FiChevronRight className="ml-2" />
+                  </a>
                 </button>
               </div>
             </div>
@@ -228,7 +241,7 @@ const Home = () => {
         <div className="container max-w-[1200px] mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="p-6 rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 text-center border border-blue-100 transform hover:-translate-y-1 transition-transform">
-              <h3 className="text-3xl font-bold text-blue-600 mb-2">---</h3>
+              <h3 className="text-3xl font-bold text-blue-600 mb-2">10k+</h3>
               <p className="text-gray-600 text-sm font-medium">
                 Happy Investors
               </p>
@@ -246,7 +259,7 @@ const Home = () => {
               </p>
             </div>
             <div className="p-6 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50 text-center border border-amber-100 transform hover:-translate-y-1 transition-transform">
-              <h3 className="text-3xl font-bold text-amber-600 mb-2">---</h3>
+              <h3 className="text-3xl font-bold text-amber-600 mb-2">25+</h3>
               <p className="text-gray-600 text-sm font-medium">
                 Years of Experience
               </p>
@@ -672,10 +685,23 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <button className="bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition flex items-center mx-auto shadow-lg transform hover:-translate-y-1">
-                Sign Up Now <FiArrowRight className="ml-2" />
+                <a
+                  className="flex items-center justify-center"
+                  href="https://fundzz.my-portfolio.co.in/app/#/login"
+                  target="_blank"
+                >
+                  Sign Up Now <FiArrowRight className="ml-2" />
+                </a>
               </button>
+
               <button className="bg-transparent border-2 border-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-800 transition flex items-center mx-auto">
-                Learn More <FiHelpCircle className="ml-2" />
+                <a
+                  className="flex items-center justify-center"
+                  href="https://fundzz.com"
+                  target="_blank"
+                >
+                  Learn More <FiHelpCircle className="ml-2" />
+                </a>
               </button>
             </div>
           </div>
