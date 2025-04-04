@@ -152,38 +152,29 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all transform hover:-translate-y-1 text-center">
               <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-100 to-indigo-100 mx-auto mb-4 flex items-center justify-center text-4xl font-bold text-blue-600">
-                AS
+                CK
               </div>
-              <h3 className="text-xl font-semibold mb-1">Aarav Sharma</h3>
-              <p className="text-blue-600 mb-4">Founder & CEO</p>
+              <h3 className="text-xl font-semibold mb-1">Chander Kala</h3>
+              <p className="text-blue-600 mb-4">Founder</p>
               <p className="text-gray-600 text-sm">
-                20+ years in asset management. Former Chief Investment Officer
-                at one of India's largest mutual fund houses.
+                With over 25 years of experience in asset management, we deliver
+                trusted, expert-driven financial solutions tailored to your
+                goals.
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all transform hover:-translate-y-1 text-center">
               <div className="w-32 h-32 rounded-full bg-gradient-to-r from-green-100 to-teal-100 mx-auto mb-4 flex items-center justify-center text-4xl font-bold text-green-600">
-                PK
+                JJ
               </div>
-              <h3 className="text-xl font-semibold mb-1">Priya Kapoor</h3>
-              <p className="text-blue-600 mb-4">Chief Investment Officer</p>
+              <h3 className="text-xl font-semibold mb-1">Jatin Jain</h3>
+              <p className="text-blue-600 mb-4">Chief Executive Officer</p>
               <p className="text-gray-600 text-sm">
-                15 years experience in fund research and portfolio management.
-                SEBI registered investment advisor.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all transform hover:-translate-y-1 text-center">
-              <div className="w-32 h-32 rounded-full bg-gradient-to-r from-purple-100 to-violet-100 mx-auto mb-4 flex items-center justify-center text-4xl font-bold text-purple-600">
-                RJ
-              </div>
-              <h3 className="text-xl font-semibold mb-1">Rahul Joshi</h3>
-              <p className="text-blue-600 mb-4">Head of Technology</p>
-              <p className="text-gray-600 text-sm">
-                Fintech expert with 12 years experience building secure,
-                scalable investment platforms.
+                With 5 years' experience, we analyze market trends, evaluate
+                mutual funds, and build portfolios for consistent returns and
+                financial growth.
               </p>
             </div>
           </div>
