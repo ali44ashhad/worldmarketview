@@ -58,13 +58,12 @@ const Contact = () => {
       icon: <FiMail className="text-2xl text-blue-600" />,
       title: "Email Support",
       details: [
-        { label: "Customer Support", value: "help@worldmarketview.com" },
+        { label: "Customer Support", value: "info@worldmarketview.in" },
         { label: "General Inquiries", value: "info@worldmarketview.com" },
-        { label: "Investor Relations", value: "ir@worldmarketview.com" },
       ],
       action: {
         text: "Email Us",
-        link: "mailto:help@worldmarketview.com",
+        link: "mailto:info@worldmarketview.in",
       },
       bg: "bg-blue-50",
       border: "border-blue-200",
@@ -73,13 +72,12 @@ const Contact = () => {
       icon: <FiPhone className="text-2xl text-green-600" />,
       title: "Phone Support",
       details: [
-        { label: "Toll-Free", value: "1800 123 9080" },
-        { label: "Direct Line", value: "+91 98880 31436" },
+        { label: "Direct Line", value: "+91 9056764301" },
         { label: "Support Hours", value: "Mon-Fri: 9AM-7PM | Sat: 10AM-3PM" },
       ],
       action: {
         text: "Call Now",
-        link: "tel:+919888031436",
+        link: "tel:+919056764301",
       },
       bg: "bg-green-50",
       border: "border-green-200",
@@ -89,12 +87,7 @@ const Contact = () => {
       title: "Our Offices",
       details: [
         {
-          label: "Corporate Office",
-          value:
-            "First-floor, SCO 52, Sector 82, JLPL Industrial Area, Sahibzada Ajit Singh Nagar, Punjab 140308, India",
-        },
-        {
-          label: "Registered Office",
+          label: "Corporate Office & Registered Office",
           value:
             "First-floor, SCO 52, Sector 82, JLPL Industrial Area, Sahibzada Ajit Singh Nagar, Punjab 140308, India",
         },
@@ -127,10 +120,10 @@ const Contact = () => {
                 href="tel:+919888031436"
                 className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition flex items-center shadow-lg"
               >
-                <FiPhone className="mr-2" /> Call +91 98880 31436
+                <FiPhone className="mr-2" /> Call +91 9056764301
               </a>
               <a
-                href="mailto:help@worldmarketview.com"
+                href="mailto:info@worldmarketview.in"
                 className="bg-transparent border-2 border-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-800 transition flex items-center"
               >
                 <FiMail className="mr-2" /> Email Support
@@ -381,10 +374,10 @@ const Contact = () => {
               href="tel:+919888031436"
               className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition flex items-center shadow-lg"
             >
-              <FiPhone className="mr-2" /> Call +91 98880 31436
+              <FiPhone className="mr-2" /> Call +91 9056764301
             </a>
             <a
-              href="mailto:help@worldmarketview.com"
+              href="mailto:info@worldmarketview.in"
               className="bg-transparent border-2 border-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-800 transition flex items-center"
             >
               <FiMail className="mr-2" /> Email Our Support Team

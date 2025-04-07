@@ -153,11 +153,11 @@ const Footer = () => {
               <p className="text-gray-400">Mohali 140308</p>
               <p className="mt-4 text-gray-400">
                 <span className="font-medium text-gray-300">Email:</span>{" "}
-                info@worldmarketview.com
+                info@worldmarketview.in
               </p>
               <p className="text-gray-400">
                 <span className="font-medium text-gray-300">Phone:</span> +91
-                9876543210
+                9056764301
               </p>
             </address>
           </div>
