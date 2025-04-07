@@ -117,7 +117,7 @@ const Contact = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="tel:+919888031436"
+                href="tel:+919056764301"
                 className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition flex items-center shadow-lg"
               >
                 <FiPhone className="mr-2" /> Call +91 9056764301
@@ -371,7 +371,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="tel:+919888031436"
+              href="tel:+919056764301"
               className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition flex items-center shadow-lg"
             >
               <FiPhone className="mr-2" /> Call +91 9056764301
