@@ -103,6 +103,42 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <Helmet>
+        {/* SEO Meta Tags */}
+        <title>Contact Us - WorldMarketView</title>
+        <meta
+          name="description"
+          content="Get in touch with the WorldMarketView team. We're here to help you with any questions or concerns about our investment platform, services, or accounts."
+        />
+        <meta
+          name="keywords"
+          content="contact us, customer support, investment questions, WorldMarketView support, investment platform help"
+        />
+        <meta property="og:title" content="Contact Us - WorldMarketView" />
+        <meta
+          property="og:description"
+          content="Reach out to the WorldMarketView team for support, inquiries, or feedback. We're here to assist with your investment needs."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.worldmarketview.in/contact"
+        />
+        <meta
+          property="og:image"
+          content="https://www.worldmarketview.in/images/logo.png"
+        />
+        <meta name="twitter:title" content="Contact Us - WorldMarketView" />
+        <meta
+          name="twitter:description"
+          content="Need help or have questions? Contact the WorldMarketView team for assistance with your investments."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.worldmarketview.in/images/logo.png"
+        />
+        <link rel="canonical" href="https://www.worldmarketview.in/contact" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-900 to-blue-700 text-white py-24 overflow-hidden">
         <div className="absolute inset-0 bg-opacity-20"></div>

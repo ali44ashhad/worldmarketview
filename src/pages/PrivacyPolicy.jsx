@@ -11,10 +11,50 @@ import {
   FiShare2,
   FiUserCheck,
 } from "react-icons/fi";
-
+import { Helmet } from "react-helmet";
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <Helmet>
+        {/* SEO Meta Tags */}
+        <title>Privacy Policy - WorldMarketView</title>
+        <meta
+          name="description"
+          content="Read the privacy policy of WorldMarketView to understand how we collect, use, and protect your personal information. Your privacy matters to us."
+        />
+        <meta
+          name="keywords"
+          content="privacy policy, personal information, data protection, WorldMarketView privacy, user data security"
+        />
+        <meta property="og:title" content="Privacy Policy - WorldMarketView" />
+        <meta
+          property="og:description"
+          content="Understand how WorldMarketView handles your personal data, including collection, usage, and protection, through our privacy policy."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.worldmarketview.in/privacy-policy"
+        />
+        <meta
+          property="og:image"
+          content="https://www.worldmarketview.in/images/privacy-policy-logo.png"
+        />
+        <meta name="twitter:title" content="Privacy Policy - WorldMarketView" />
+        <meta
+          name="twitter:description"
+          content="Review the privacy policy of WorldMarketView to know how your personal information is managed and secured."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.worldmarketview.in/images/privacy-policy-logo.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.worldmarketview.in/privacy-policy"
+        />
+      </Helmet>
+
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-[1200px] mx-auto  overflow-hidden">

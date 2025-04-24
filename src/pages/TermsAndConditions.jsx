@@ -10,10 +10,56 @@ import {
   FiPhone,
   FiHome,
 } from "react-icons/fi";
-
+import { Helmet } from "react-helmet";
 const TermsAndConditions = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <Helmet>
+        {/* SEO Meta Tags */}
+        <title>Terms and Conditions - WorldMarketView</title>
+        <meta
+          name="description"
+          content="Read the Terms and Conditions of WorldMarketView to understand the rules and guidelines for using our website and services."
+        />
+        <meta
+          name="keywords"
+          content="terms and conditions, website terms, user agreement, WorldMarketView terms, legal terms, website use"
+        />
+        <meta
+          property="og:title"
+          content="Terms and Conditions - WorldMarketView"
+        />
+        <meta
+          property="og:description"
+          content="Review the Terms and Conditions of WorldMarketView to understand the terms of use and your rights and obligations while using our services."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.worldmarketview.in/terms-and-conditions"
+        />
+        <meta
+          property="og:image"
+          content="https://www.worldmarketview.in/images/terms-and-conditions-logo.png"
+        />
+        <meta
+          name="twitter:title"
+          content="Terms and Conditions - WorldMarketView"
+        />
+        <meta
+          name="twitter:description"
+          content="Understand the Terms and Conditions of WorldMarketView to learn about your rights and responsibilities when using our services."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.worldmarketview.in/images/terms-and-conditions-logo.png"
+        />
+        <link
+          rel="canonical"
+          href="https://www.worldmarketview.in/terms-and-conditions"
+        />
+      </Helmet>
+
       {/* Main Content */}
       <main className="container mx-auto px-3 py-12">
         <div className="max-w-[1200px] mx-auto  overflow-hidden">

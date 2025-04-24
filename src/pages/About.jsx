@@ -8,10 +8,55 @@ import {
   FiHelpCircle,
   FiDollarSign,
 } from "react-icons/fi";
-
+import { Helmet } from "react-helmet";
 const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 font-sans">
+      <Helmet>
+        {/* SEO Meta Tags */}
+        <title>
+          About WorldMarketView - Empowering Investors with Transparent
+          Investment Solutions
+        </title>
+        <meta
+          name="description"
+          content="Discover the story, mission, and leadership behind WorldMarketView. Learn how we empower investors with transparent and commission-free investment solutions."
+        />
+        <meta
+          name="keywords"
+          content="investment solutions, commission-free investing, mutual funds, financial education, investor success, transparency in investments"
+        />
+        <meta
+          property="og:title"
+          content="About WorldMarketView - Empowering Investors with Transparent Investment Solutions"
+        />
+        <meta
+          property="og:description"
+          content="Explore the mission and values of WorldMarketView, an investment platform that prioritizes transparency, education, and investor success."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.worldmarketview.in/about"
+        />
+        <meta
+          property="og:image"
+          content="https://www.worldmarketview.in/images/logo.png"
+        />
+        <meta
+          name="twitter:title"
+          content="About WorldMarketView - Empowering Investors"
+        />
+        <meta
+          name="twitter:description"
+          content="Learn about WorldMarketView's mission, leadership, and how we help investors make smarter, commission-free investment decisions."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.worldmarketview.in/images/logo.png"
+        />
+        <link rel="canonical" href="https://www.worldmarketview.in/about" />
+      </Helmet>
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 relative overflow-hidden">
         <div className="container max-w-[1200px] mx-auto px-4 relative z-10 text-center">

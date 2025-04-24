@@ -12,7 +12,7 @@ import {
   FiChevronRight,
   FiHelpCircle,
 } from "react-icons/fi";
-
+import { Helmet } from "react-helmet";
 // Finance-themed illustrations (using emojis as placeholders)
 const FinanceIllustrations = {
   hero: "📈",
@@ -79,6 +79,48 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 font-sans">
+      <Helmet>
+        {/* SEO Meta Tags */}
+        <title>
+          WorldMarketView - Your Investment Platform for Financial Success
+        </title>
+        <meta
+          name="description"
+          content="WorldMarketView is a leading platform for investment insights, mutual funds, stock market tips, and financial advisory. Join us today to secure your financial future."
+        />
+        <meta
+          name="keywords"
+          content="investment platform, financial advisory, mutual funds, stock market, financial success, investment tips, finance website"
+        />
+        <meta
+          property="og:title"
+          content="WorldMarketView - Your Investment Platform"
+        />
+        <meta
+          property="og:description"
+          content="Explore expert investment insights, mutual funds, stock market updates, and personalized financial advice with WorldMarketView."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.worldmarketview.in" />
+        <meta
+          property="og:image"
+          content="https://www.worldmarketview.in/images/logo.png"
+        />
+        <meta
+          name="twitter:title"
+          content="WorldMarketView - Your Investment Platform"
+        />
+        <meta
+          name="twitter:description"
+          content="Unlock your financial potential with WorldMarketView’s investment platform, offering expert advice, tips, and resources for your financial growth."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.worldmarketview.in/images/logo.png"
+        />
+        <link rel="canonical" href="https://www.worldmarketview.in" />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-16 relative overflow-hidden">
         <div className="absolute hidden md:block top-0 left-0 w-full h-full opacity-10">
