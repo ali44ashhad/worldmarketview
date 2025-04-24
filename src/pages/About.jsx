@@ -250,6 +250,7 @@ const About = () => {
               <a
                 className="flex items-center justify-center"
                 href="https://fundzz.com"
+                title="Explore Fundzz for more information about investment opportunities"
                 target="_blank"
               >
                 Learn More <FiHelpCircle className="ml-2" />

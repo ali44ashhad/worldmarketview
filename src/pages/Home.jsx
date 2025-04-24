@@ -158,6 +158,7 @@ const Home = () => {
                   <a
                     className="flex justify-center items-center"
                     href="https://fundzz.com/"
+                    title="Explore Fundzz for more information about investment opportunities"
                     target="_blank"
                   >
                     Learn More <FiChevronRight className="ml-2" />
@@ -354,7 +355,11 @@ const Home = () => {
                   </div>
                 </div>
 
-                <a href="https://fundzz.com/equity" target="_blank">
+                <a
+                  href="https://fundzz.com/equity"
+                  title="Learn more about our investment solutions on Fundzz"
+                  target="_blank"
+                >
                   <h3 className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-2 rounded-lg hover:opacity-90 flex items-center justify-center text-sm font-medium shadow-md transition-opacity">
                     Explore <FiArrowRight className="ml-2" />
                   </h3>
@@ -392,7 +397,11 @@ const Home = () => {
                   </div>
                 </div>
 
-                <a href="https://fundzz.com/debt" target="_blank">
+                <a
+                  href="https://fundzz.com/debt"
+                  title="Learn more about our investment solutions on Fundzz"
+                  target="_blank"
+                >
                   <h3 className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-2 rounded-lg hover:opacity-90 flex items-center justify-center text-sm font-medium shadow-md transition-opacity">
                     Explore <FiArrowRight className="ml-2" />
                   </h3>
@@ -429,7 +438,11 @@ const Home = () => {
                     <span>Auto rebalancing</span>
                   </div>
                 </div>
-                <a href="https://fundzz.com/hybrid" target="_blank">
+                <a
+                  href="https://fundzz.com/hybrid"
+                  title="Learn more about our investment solutions on Fundzz"
+                  target="_blank"
+                >
                   <h3 className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-2 rounded-lg hover:opacity-90 flex items-center justify-center text-sm font-medium shadow-md transition-opacity">
                     Explore <FiArrowRight className="ml-2" />
                   </h3>
@@ -740,6 +753,7 @@ const Home = () => {
                 <a
                   className="flex items-center justify-center"
                   href="https://fundzz.com"
+                  title="Explore Fundzz for more information about investment opportunities"
                   target="_blank"
                 >
                   Learn More <FiHelpCircle className="ml-2" />
