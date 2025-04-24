@@ -12,6 +12,7 @@ import {
   FiYoutube,
   FiTrendingUp,
 } from "react-icons/fi";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const [activeFaqIndex, setActiveFaqIndex] = useState(null);
@@ -122,7 +123,7 @@ const Contact = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.worldmarketview.in/contact"
+          content="https://www.worldmarketview.in/contact-us"
         />
         <meta
           property="og:image"
@@ -137,7 +138,10 @@ const Contact = () => {
           name="twitter:image"
           content="https://www.worldmarketview.in/images/logo.png"
         />
-        <link rel="canonical" href="https://www.worldmarketview.in/contact" />
+        <link
+          rel="canonical"
+          href="https://www.worldmarketview.in/contact-us"
+        />
       </Helmet>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-900 to-blue-700 text-white py-24 overflow-hidden">

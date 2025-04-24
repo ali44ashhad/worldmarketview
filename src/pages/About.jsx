@@ -37,7 +37,7 @@ const About = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://www.worldmarketview.in/about"
+          content="https://www.worldmarketview.in/about-us"
         />
         <meta
           property="og:image"
@@ -55,7 +55,7 @@ const About = () => {
           name="twitter:image"
           content="https://www.worldmarketview.in/images/logo.png"
         />
-        <link rel="canonical" href="https://www.worldmarketview.in/about" />
+        <link rel="canonical" href="https://www.worldmarketview.in/about-us" />
       </Helmet>
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 relative overflow-hidden">
