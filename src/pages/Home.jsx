@@ -161,7 +161,8 @@ const Home = () => {
                     title="Explore Fundzz for more information about investment opportunities"
                     target="_blank"
                   >
-                    Learn More <FiChevronRight className="ml-2" />
+                    Learn more about our investment platform{" "}
+                    <FiChevronRight className="ml-2" />
                   </a>
                 </button>
               </div>
@@ -756,7 +757,8 @@ const Home = () => {
                   title="Explore Fundzz for more information about investment opportunities"
                   target="_blank"
                 >
-                  Learn More <FiHelpCircle className="ml-2" />
+                  Learn more about our investment platform{" "}
+                  <FiHelpCircle className="ml-2" />
                 </a>
               </button>
             </div>
