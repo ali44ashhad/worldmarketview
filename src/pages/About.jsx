@@ -249,11 +249,12 @@ const About = () => {
             <button className="bg-transparent border-2 border-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-800 transition flex items-center mx-auto">
               <a
                 className="flex items-center justify-center"
-                href="https://fundzz.com"
+                href="/"
                 title="Explore Fundzz for more information about investment opportunities"
                 target="_blank"
               >
-                Learn more about our investment platform <FiHelpCircle className="ml-2" />
+                Learn more about our investment platform{" "}
+                <FiHelpCircle className="ml-2" />
               </a>
             </button>
           </div>

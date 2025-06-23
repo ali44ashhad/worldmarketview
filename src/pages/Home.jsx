@@ -157,7 +157,7 @@ const Home = () => {
                 <button className="bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition flex items-center justify-center">
                   <a
                     className="flex justify-center items-center"
-                    href="https://fundzz.com/"
+                    href="/about-us"
                     title="Explore Fundzz for more information about investment opportunities"
                     target="_blank"
                   >
@@ -357,7 +357,7 @@ const Home = () => {
                 </div>
 
                 <a
-                  href="https://fundzz.com/equity"
+                  href="/"
                   title="Learn more about our investment solutions on Fundzz"
                   target="_blank"
                 >
@@ -399,7 +399,7 @@ const Home = () => {
                 </div>
 
                 <a
-                  href="https://fundzz.com/debt"
+                  href="/"
                   title="Learn more about our investment solutions on Fundzz"
                   target="_blank"
                 >
@@ -440,7 +440,7 @@ const Home = () => {
                   </div>
                 </div>
                 <a
-                  href="https://fundzz.com/hybrid"
+                  href="/"
                   title="Learn more about our investment solutions on Fundzz"
                   target="_blank"
                 >
@@ -753,7 +753,7 @@ const Home = () => {
               <button className="bg-transparent border-2 border-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-800 transition flex items-center mx-auto">
                 <a
                   className="flex items-center justify-center"
-                  href="https://fundzz.com"
+                  href="/about-us"
                   title="Explore Fundzz for more information about investment opportunities"
                   target="_blank"
                 >
